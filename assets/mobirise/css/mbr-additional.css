@@ -708,9 +708,9 @@ a {
   transition: color 0.6s;
 }
 .cid-sFCpNvLzxV {
-  padding-top: 4rem;
+  padding-top: 7rem;
   padding-bottom: 0rem;
-  background-image: url("../../../assets/images/bg-hero-1440x1122.jpg");
+  background-image: url("../../../assets/images/tenanter-bg-2000x1117.jpg");
 }
 .cid-sFCpNvLzxV .row {
   align-items: center;
@@ -798,7 +798,7 @@ a {
 .cid-sFCQqWXQKd {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-image: url("../../../assets/images/bg-hero-1440x1122.jpeg");
+  background-color: #503ad3;
 }
 @media (max-width: 991px) {
   .cid-sFCQqWXQKd .image-wrapper {
@@ -817,7 +817,7 @@ a {
   color: #ffffff;
 }
 .cid-sFCQqWXQKd .mbr-text {
-  color: #bed3f9;
+  color: #fafafa;
 }
 .cid-sFDchACJC2 {
   padding-top: 6rem;
@@ -844,7 +844,7 @@ a {
   color: #ffffff;
 }
 .cid-sFDchACJC2 .mbr-text {
-  color: #bed3f9;
+  color: #fafafa;
 }
 .cid-sFCUkR3BAn {
   padding-top: 5rem;
@@ -855,7 +855,7 @@ a {
   color: #ffffff;
 }
 .cid-sFCUkR3BAn .mbr-section-subtitle {
-  color: #bed3f9;
+  color: #fafafa;
 }
 .cid-sFD1hnFlRP {
   padding-top: 0px;
@@ -876,6 +876,107 @@ a {
   width: 100%;
   object-fit: cover;
   min-height: 1px;
+}
+.cid-sHNqL8dJ7T {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #503ad3;
+}
+.cid-sHNqL8dJ7T .timeline-element {
+  position: relative;
+}
+.cid-sHNqL8dJ7T .timelines-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cid-sHNqL8dJ7T .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-sHNqL8dJ7T .mbr-section-title,
+.cid-sHNqL8dJ7T .mbr-section-subtitle,
+.cid-sHNqL8dJ7T .timeline-date {
+  text-align: center;
+}
+.cid-sHNqL8dJ7T .iconBackground {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #6592e6;
+  margin-left: -9px;
+}
+@media (max-width: 767px) {
+  .cid-sHNqL8dJ7T .iconBackground {
+    left: 15px;
+    top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .cid-sHNqL8dJ7T .iconBackground {
+    top: 70px;
+    left: 50%;
+  }
+}
+.cid-sHNqL8dJ7T .row:after {
+  content: "";
+  position: absolute;
+  background-color: #6592e6;
+  width: 2px;
+}
+@media (max-width: 767px) {
+  .cid-sHNqL8dJ7T .row:after {
+    height: calc(100% + 30px);
+    top: 50px;
+    left: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .cid-sHNqL8dJ7T .row:after {
+    height: calc(100% - 20px);
+    top: 90px;
+    left: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sHNqL8dJ7T .timeline-date-wrapper,
+  .cid-sHNqL8dJ7T .timeline-text-wrapper,
+  .cid-sHNqL8dJ7T .image-wrapper {
+    padding: 0rem;
+    padding-left: 2rem;
+  }
+  .cid-sHNqL8dJ7T .mbr-timeline-date {
+    text-align: left !important;
+  }
+  .cid-sHNqL8dJ7T .mbr-timeline-title {
+    text-align: left;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-sHNqL8dJ7T .timeline-date-wrapper,
+  .cid-sHNqL8dJ7T .timeline-text-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sHNqL8dJ7T .timeline-date-wrapper,
+  .cid-sHNqL8dJ7T .timeline-text-wrapper,
+  .cid-sHNqL8dJ7T .image-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sHNqL8dJ7T .mbr-timeline-date {
+  color: #8caff0;
+}
+.cid-sHNqL8dJ7T .mbr-timeline-title {
+  color: #ffffff;
+}
+.cid-sHNqL8dJ7T .mbr-text {
+  color: #bed3f9;
+}
+.cid-sHNqL8dJ7T .mbr-section-title {
+  color: #ffffff;
 }
 .cid-sFCVkd6tMD {
   padding-top: 6rem;
@@ -1009,7 +1110,7 @@ a {
   min-height: 77px;
   transition: all .3s;
   border-bottom: 1px solid transparent;
-  background: #503ad3;
+  background: rgba(80, 58, 211, 0.8);
 }
 .cid-s48OLK6784 .navbar:not(.navbar-short) {
   border-bottom: 1px solid #e6e6e6;
@@ -1255,9 +1356,9 @@ a {
   }
 }
 .cid-s48P1Icc8J {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
-  background-color: #503ad3;
+  background-color: #372794;
 }
 .cid-s48P1Icc8J .row-links {
   width: 100%;
@@ -1417,7 +1518,7 @@ a {
   min-height: 77px;
   transition: all .3s;
   border-bottom: 1px solid transparent;
-  background: #503ad3;
+  background: rgba(80, 58, 211, 0.8);
 }
 .cid-s48OLK6784 .navbar:not(.navbar-short) {
   border-bottom: 1px solid #e6e6e6;
@@ -1669,9 +1770,9 @@ a {
   text-align: center;
 }
 .cid-s48P1Icc8J {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
-  background-color: #503ad3;
+  background-color: #000000;
 }
 .cid-s48P1Icc8J .row-links {
   width: 100%;
